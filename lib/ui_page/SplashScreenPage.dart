@@ -70,7 +70,7 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
                 height: 200,
                 width: 200,
               ),
-              Text('TANI SOLOK', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 25),)
+              Text('RICE APPS', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 25),)
 
             ],
           ),

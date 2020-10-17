@@ -223,13 +223,49 @@ class _DashboardPageState extends State<DashboardPage>
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
+                Row(
+                  children: <Widget>[
+                    Container(
+                      margin: EdgeInsets.only(left: 2, right: 2),
+                      alignment: Alignment.center,
+                      height: 25,
+                      width: 25,
+                      color: Colors.white,
+                      child: Text('R', style: TextStyle(fontSize: 20, color: Colors.green, fontWeight: FontWeight.bold),),
+                    ),
+                    Container(
+                      margin: EdgeInsets.only(left: 2, right: 2),
+                      alignment: Alignment.center,
+                      height: 25,
+                      width: 25,
+                      color: Colors.white,
+                      child: Text('I', style: TextStyle(fontSize: 15, color: Colors.green, fontWeight: FontWeight.bold),),
+                    ),
+                    Container(
+                      margin: EdgeInsets.only(left: 2, right: 2),
+                      alignment: Alignment.center,
+                      height: 25,
+                      width: 25,
+                      color: Colors.white,
+                      child: Text('C', style: TextStyle(fontSize: 20, color: Colors.green, fontWeight: FontWeight.bold),),
+                    ),
+                    Container(
+                      margin: EdgeInsets.only(left: 2, right: 2),
+                      alignment: Alignment.center,
+                      height: 25,
+                      width: 25,
+                      color: Colors.white,
+                      child: Text('E', style: TextStyle(fontSize: 20, color: Colors.green, fontWeight: FontWeight.bold),),
+                    ),
+                  ],
+                ),
                 Text(
-                  'TANI SOLOK',
+                  'APPS',
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
                       color: Colors.white,
                       letterSpacing: 3,
-                      fontSize: 26),
+                      fontSize: 20),
                 )
               ],
             ),

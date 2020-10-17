@@ -228,7 +228,7 @@ class _LoginPageState extends State<LoginPage> {
                             height: 120,
                             width: 120,
                           ),
-                          Text('TANI SOLOK', style: TextStyle(color: Colors.green, fontWeight: FontWeight.bold, fontSize: 20),)
+                          Text('RICE APPS', style: TextStyle(color: Colors.green, fontWeight: FontWeight.bold, fontSize: 20),)
                         ],
                       )),
                       SizedBox(
